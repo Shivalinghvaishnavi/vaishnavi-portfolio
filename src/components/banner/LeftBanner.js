@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["React.js Developer", "Web & Mobile Developer", "Backend Enthusiast"],
+  words: ["Full Stack Developer", "Software Engineer", "React.js + Java Developer", "Web & Mobile Developer"],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -27,7 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I am a React.js Developer with <span className="text-designColor capitalize">2.8 years</span> of experience in web and mobile development, specializing in creating dynamic, user-friendly applications. I have expertise in React Native for mobile solutions and a strong foundation in backend technologies to support seamless, end-to-end development. My focus is on delivering scalable, responsive, and efficient applications that enhance user experience. </p>
+        I am a Full Stack Developer with <span className="text-designColor capitalize">3 years</span> of experience building end-to-end web and mobile applications. I specialise in React.js for frontend, Node.js and Java for backend services, and React Native for cross-platform mobile. My focus is on delivering scalable, performant, and maintainable solutions across the full stack.</p>
       </div>
      {/* Media */}
      <Media />
